@@ -6285,10 +6285,10 @@ p {
     /*$break-size hack: force large media query*/ }
     @media only screen and (min-width: 1px) {
       .app .above-the-fold .logo-wrapper {
-        padding: 20px 25px; }
+        padding: 16px 20px; }
         .app .above-the-fold .logo-wrapper .logo-text {
-          font-size: 24px;
-          font-size: 1.5rem;
+          font-size: 20px;
+          font-size: 1.25rem;
           vertical-align: middle;
           margin-left: 15px; } }
   .app .above-the-fold .jumbotron {

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="999f6d93-9012-4710-8953-9685f592b4c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/glasses.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/logo.svg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/images/glasses.png" afterPath="$PROJECT_DIR$/src/assets/images/glasses.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/app.js" afterPath="$PROJECT_DIR$/src/scripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/app.css" afterPath="$PROJECT_DIR$/src/styles/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/app.scss" afterPath="$PROJECT_DIR$/src/styles/app.scss" />
     </list>
@@ -33,8 +31,8 @@
                 <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
                   <entry file="file://$PROJECT_DIR$/src/styles/app.scss">
                     <provider selected="true" editor-type-id="text-editor">
-                      <state vertical-scroll-proportion="0.6924101">
-                        <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+                      <state vertical-scroll-proportion="0.3568575">
+                        <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
                         <folding />
                       </state>
                     </provider>
@@ -677,7 +675,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="putting in basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="putting in basics" />
+    <MESSAGE value="above the fold done" />
+    <option name="LAST_COMMIT_MESSAGE" value="above the fold done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -821,11 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/glasses.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0425532">
@@ -868,8 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6924101">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.3568575">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
           <folding />
         </state>
       </provider>

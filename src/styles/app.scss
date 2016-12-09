@@ -29,14 +29,44 @@ a {
 }
 
 p {
-  color: $src-super-bright;
   margin: 0;
 }
 
+.content-section {
+  color: $src-dark;
+  background-color: $src-super-bright;
+
+  @include at-least-small-screen-styles {
+    padding: $src-content-section-vertical-space 0;
+  }
+
+  &.alt-content-section {
+    background-color: $src-dark;
+    color: $src-super-bright;
+  }
+}
+
+body .form-control {
+  @include font-size(18px);
+  color: $src-dark;
+  &::placeholder {
+    color: rgba(69, 63, 70, .5);
+  }
+}
+
+body .form-group {
+  margin-bottom: 38px;
+}
+
+/* APP STYLES */
 .app {
 
   h1, h2 {
     font-weight: bold;
+  }
+
+  h3 {
+    font-weight: 600;
   }
 
   .above-the-fold {
@@ -106,8 +136,118 @@ p {
     }
   }
 
-  .app-intro {
-    font-size: large;
+  .features {
+
+    .row {
+      // http://stackoverflow.com/a/25517025/173957
+      display: flex;
+      align-items: center;
+    }
+
+    h3 {
+      @include at-least-small-screen-styles {
+        @include font-size(36px);
+        margin-bottom: 5px;
+      }
+    }
+
+    p {
+      @include at-least-small-screen-styles {
+        @include font-size(24px);
+      }
+    }
+
+    img {
+      @include at-least-small-screen-styles {
+        height: 224px;
+      }
+    }
   }
 
+  .signup {
+    background-color: $src-bright-brand;
+    color: $src-super-bright;
+    text-align: center;
+
+    .signup-container {
+      @include at-least-small-screen-styles {
+        @include center-block();
+        width: 420px;
+      }
+
+      h3 {
+        font-weight: bold;
+
+        @include at-least-small-screen-styles {
+          @include font-size(36px);
+          margin: 32px 0;
+        }
+      }
+
+      p {
+
+        @include at-least-small-screen-styles {
+          @include font-size(24px);
+          margin-bottom: 70px;
+        }
+      }
+
+      input {
+        @include at-least-small-screen-styles {
+          @include font-size(18px);
+        }
+      }
+
+      .btn-sign-up {
+        //background: none;
+        border: 1px solid $src-super-bright;
+        width: 100%;
+        @include font-size(24px);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $src-dark;
+    color: $src-super-bright;
+    ul {
+      margin-bottom: 0;
+      @extend .list-inline;
+
+      li {
+        &#footer-copyright {
+          display: block;
+
+          text-align: center;
+
+          padding: 64px 0;
+
+        }
+
+        &.social {
+          float: right;
+
+          @include at-least-small-screen-styles {
+            margin-left: 10px;
+            margin-right: 0;
+            padding-top: 5px;
+            padding-right: 5px;
+          }
+
+          i {
+            background-color: $src-super-bright;
+            text-align: center;
+            color: $src-bright-brand;
+            border-radius: 50%;
+
+            @include at-least-small-screen-styles {
+              width: 20px;
+              height: 20px;
+              padding-top: 3px;
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './../assets/logo.svg';
+import glasses from './../assets/images/glasses.png';
 import './../styles/app.css';
 
 class App extends Component {
@@ -7,6 +7,10 @@ class App extends Component {
     return (
       <div className="app">
         <div className="above-the-fold">
+          <div className="logo-wrapper">
+            <img src={glasses}/>
+            <span className="logo-text">Punk News Playlist</span>
+          </div>
           <div className="jumbotron">
             <div className="container">
               <div className="row">

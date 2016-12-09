@@ -6,6 +6,11 @@ import chest from './../assets/images/chest.png';
 import './../styles/app.css';
 
 class App extends Component {
+  scrollToSignUp() {
+    const signup = document.querySelector('.signup');
+    signup.scrollIntoView({behavior: 'smooth'});
+  }
+
   render() {
     return (
       <div className="app">
@@ -24,7 +29,7 @@ class App extends Component {
           </div>
           <div className="sign-up-wrapper">
             <div className="container">
-              <button className="btn btn-lg btn-primary">Get Started</button>
+              <button className="btn btn-lg btn-primary" onClick={this.scrollToSignUp}>Get Started</button>
             </div>
           </div>
         </div>

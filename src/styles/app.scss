@@ -56,6 +56,16 @@ body .form-control {
 
 body .form-group {
   margin-bottom: 38px;
+
+  &.has-error {
+    .form-control {
+      border: 5px solid $src-dark;
+    }
+  }
+}
+
+.help-block {
+  color: $src-super-bright;
 }
 
 /* APP STYLES */
@@ -228,7 +238,6 @@ body .form-group {
           float: right;
 
           @include at-least-small-screen-styles {
-            margin-left: 10px;
             margin-right: 0;
             padding-top: 5px;
             padding-right: 5px;
@@ -243,7 +252,7 @@ body .form-group {
             @include at-least-small-screen-styles {
               width: 20px;
               height: 20px;
-              padding-top: 3px;
+              padding-top: 2px;
             }
           }
         }

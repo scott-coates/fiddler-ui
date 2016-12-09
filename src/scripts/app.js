@@ -1,9 +1,49 @@
 import React, { Component } from 'react';
+
+import { Field, reduxForm } from 'redux-form'
+
 import glasses from './../assets/images/glasses.png';
 import helm from './../assets/images/helm.png';
 import clock from './../assets/images/clock.png';
 import chest from './../assets/images/chest.png';
 import './../styles/app.css';
+
+const validate = values => {
+  console.log("validate", values); // todo console.log statement
+  const errors = {};
+
+  if (!values.name) {
+    errors.name = 'Required';
+  }
+
+  if (!values.email) {
+    errors.email = 'Required';
+  }
+
+  if (!values.requestContent) {
+    errors.requestContent = 'Required';
+  }
+
+  return errors;
+};
+
+const warn = values => {
+  const warnings = {};
+
+  if (values.requestContent && values.requestContent.length < 50) {
+    warnings.requestContent = 'We\'ll need a little more detail than that.';
+  }
+
+  return warnings;
+};
+
+const renderField = ({ input, ElementType, placeholder, type,className,id,rows, meta: { touched, error, warning } }) => (
+
+  <div className={"form-group" + (touched && error ? " has-error" : "")}>
+    <ElementType {...input} rows={rows} id={id} placeholder={placeholder} type={type} className={className}/>
+    {touched && (warning && <span className="help-block">{warning}</span>)}
+  </div>
+);
 
 class App extends Component {
   scrollToSignUp() {
@@ -11,7 +51,15 @@ class App extends Component {
     signup.scrollIntoView({behavior: 'smooth'});
   }
 
+
+  onSubmit(values) {
+    // Do something with the form values
+    console.log(values);
+  }
+
   render() {
+    const { handleSubmit } = this.props;
+
     return (
       <div className="app">
         <div className="above-the-fold">
@@ -56,8 +104,9 @@ class App extends Component {
               </div>
               <div className="col-sm-12">
                 <h3>Save Time</h3>
-                <p>Listen to the latest punk rock releases tailored for your tastes. Never miss anything new from your
-                  favorite bands or artists you have yet to be exposed to.
+                <p>The perfect playlist is curated for you on demand. Specify what you’re looking for (anything
+                  from&nbsp;
+                  <em>female vocals only</em> to <em>local bands only</em>) and we take care of the rest.
                 </p>
               </div>
 
@@ -91,19 +140,18 @@ class App extends Component {
                   Please mention some bands that you like and why (song structure, harmonies, tempo, etc).
                   Lastly, jot down some music you don’t like too (screamo, pop punk).
                 </p>
+                <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
+                  <Field ElementType="input" type="text" className="form-control" name="name" id="name"
+                         placeholder="Your Name*"
+                         component={renderField}/>
+                  <Field ElementType="input" type="email" className="form-control" name="email" id="email"
+                         placeholder="Your E-mail Address*"
+                         component={renderField}/>
 
-                <form>
-                  <div className="form-group">
-                    <input type="text" className="form-control" id="name" placeholder="Your Name*"/>
-                  </div>
-                  <div className="form-group">
-                    <input type="text" className="form-control" id="email"
-                           placeholder="Your E-mail Address*"/>
-                  </div>
-                  <div className="form-group">
-                    <textarea rows="8" className="form-control" id="request-content"
-                              placeholder="Your Message*"/>
-                  </div>
+                  <Field ElementType="textarea" rows="8" className="form-control" name="requestContent"
+                         id="request-content"
+                         placeholder="Your Message*"
+                         component={renderField}/>
                   <div className="form-group">
                     <button className="btn btn-sm btn-primary btn-sign-up">Sign Up!</button>
                   </div>
@@ -120,6 +168,11 @@ class App extends Component {
                 <i className="fa fa-twitter"/>
               </a>
             </li>
+            <li className="social">
+              <a href="https://open.spotify.com/user/punkrockplaylist" target="_blank">
+                <i className="fa fa-spotify"/>
+              </a>
+            </li>
             <li id="footer-copyright">
               <span>© {new Date().getFullYear()} Punk Rock Playlist</span>
             </li>
@@ -131,4 +184,8 @@ class App extends Component {
   }
 }
 
-export default App;
+export default reduxForm({
+  form: 'mainForm',  // a unique identifier for this form
+  validate,
+  warn
+})(App);

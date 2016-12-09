@@ -10,6 +10,9 @@
     "bootstrap-sass": "3.3.7",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
+    "redux": "3.5.2",
+    "react-redux": "4.4.5",
+    "redux-form": "6.1.1",
     "smoothscroll-polyfill": "0.3.4"
   },
   "scripts": {

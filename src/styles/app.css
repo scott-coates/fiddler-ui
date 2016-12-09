@@ -6285,6 +6285,11 @@ body .form-control {
 
 body .form-group {
   margin-bottom: 38px; }
+  body .form-group.has-error .form-control {
+    border: 5px solid #453F46; }
+
+.help-block {
+  color: white; }
 
 /* APP STYLES */
 .app h1, .app h2 {
@@ -6424,7 +6429,6 @@ body .form-group {
       /*$break-size hack: force large media query*/ }
       @media only screen and (min-width: 1px) {
         .app .footer ul li.social {
-          margin-left: 10px;
           margin-right: 0;
           padding-top: 5px;
           padding-right: 5px; } }
@@ -6438,4 +6442,4 @@ body .form-group {
           .app .footer ul li.social i {
             width: 20px;
             height: 20px;
-            padding-top: 3px; } }
+            padding-top: 2px; } }

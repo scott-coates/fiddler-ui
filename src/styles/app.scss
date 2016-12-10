@@ -10,8 +10,6 @@
   }
 
   .above-the-fold {
-    height: 100vh;
-
     background: linear-gradient(rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../assets/images/dog-bg.jpg);
 
     //background-image: url(../assets/images/dog-bg.jpg);
@@ -39,26 +37,8 @@
     }
 
     .jumbotron {
-      color: $src-dark;
-      background: none;
-
-      @include at-least-small-screen-styles {
-        h1 {
-          @include font-size(64px);
-        }
-
-        h2 {
-          @include font-size(36px);
-          margin-top: 30px;
-        }
-
-        padding: 210px 0 0;
-      }
-
       .blurb {
         color: $src-super-bright;
-        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);
-        text-align: center;
       }
     }
 

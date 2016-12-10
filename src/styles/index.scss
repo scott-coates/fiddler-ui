@@ -2,8 +2,8 @@
 // Rely on a lot of bootstrap classes, mixins -- defined by our variables and overrides
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "mixins";
-
 @import "app";
+@import "thank-you";
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -68,4 +68,34 @@ body .form-group {
 
 .help-block {
   color: $src-super-bright;
+}
+
+.hello{
+  height: 100vh;
+
+  h1, h2 {
+    font-weight: bold;
+  }
+
+  .jumbotron {
+    background: none;
+
+    @include at-least-small-screen-styles {
+      h1 {
+        @include font-size(64px);
+      }
+
+      h2 {
+        @include font-size(36px);
+        margin-top: 30px;
+      }
+
+      padding: 210px 0 0;
+    }
+
+    .blurb {
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);
+      text-align: center;
+    }
+  }
 }

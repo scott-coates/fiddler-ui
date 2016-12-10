@@ -61,7 +61,7 @@ class App extends Component {
 
     return (
       <div className="app">
-        <div className="above-the-fold">
+        <div className="above-the-fold hello">
           <div className="logo-wrapper">
             <img src={glasses}/>
             <span className="logo-text">Punk Rock Playlist</span>

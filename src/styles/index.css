@@ -6253,7 +6253,6 @@ button.close {
   font-weight: 600; }
 
 .app .above-the-fold {
-  height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../assets/images/dog-bg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -6274,24 +6273,8 @@ button.close {
           font-size: 1.25rem;
           vertical-align: middle;
           margin-left: 15px; } }
-  .app .above-the-fold .jumbotron {
-    color: #453F46;
-    background: none;
-    /*$break-size hack: force large media query*/ }
-    @media only screen and (min-width: 1px) {
-      .app .above-the-fold .jumbotron {
-        padding: 210px 0 0; }
-        .app .above-the-fold .jumbotron h1 {
-          font-size: 64px;
-          font-size: 4rem; }
-        .app .above-the-fold .jumbotron h2 {
-          font-size: 36px;
-          font-size: 2.25rem;
-          margin-top: 30px; } }
-    .app .above-the-fold .jumbotron .blurb {
-      color: white;
-      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-      text-align: center; }
+  .app .above-the-fold .jumbotron .blurb {
+    color: white; }
   .app .above-the-fold .sign-up-wrapper .btn-lg, .app .above-the-fold .sign-up-wrapper .btn-group-lg > .btn {
     font-weight: bold;
     display: block;
@@ -6403,6 +6386,11 @@ button.close {
             height: 20px;
             padding-top: 2px; } }
 
+.thank-you {
+  background-color: #CF3E61; }
+  .thank-you .jumbotron .blurb {
+    color: white; }
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6447,3 +6435,24 @@ body .form-group {
 
 .help-block {
   color: white; }
+
+.hello {
+  height: 100vh; }
+  .hello h1, .hello h2 {
+    font-weight: bold; }
+  .hello .jumbotron {
+    background: none;
+    /*$break-size hack: force large media query*/ }
+    @media only screen and (min-width: 1px) {
+      .hello .jumbotron {
+        padding: 210px 0 0; }
+        .hello .jumbotron h1 {
+          font-size: 64px;
+          font-size: 4rem; }
+        .hello .jumbotron h2 {
+          font-size: 36px;
+          font-size: 2.25rem;
+          margin-top: 30px; } }
+    .hello .jumbotron .blurb {
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+      text-align: center; }

@@ -208,6 +208,12 @@ body .form-group {
         }
       }
 
+      textarea {
+        @include at-least-small-screen-styles {
+          height: 180px;
+        }
+      }
+
       .btn-sign-up {
         //background: none;
         border: 1px solid $src-super-bright;

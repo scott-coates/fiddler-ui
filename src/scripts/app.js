@@ -37,10 +37,10 @@ const warn = values => {
   return warnings;
 };
 
-const renderField = ({ input, ElementType, placeholder, type,className,id,rows, meta: { touched, error, warning } }) => (
+const renderField = ({ input, ElementType, placeholder, type,className, id, meta: { touched, error, warning } }) => (
 
   <div className={"form-group" + (touched && error ? " has-error" : "")}>
-    <ElementType {...input} rows={rows} id={id} placeholder={placeholder} type={type} className={className}/>
+    <ElementType {...input} id={id} placeholder={placeholder} type={type} className={className}/>
     {touched && (warning && <span className="help-block">{warning}</span>)}
   </div>
 );
@@ -148,7 +148,7 @@ class App extends Component {
                          placeholder="Your E-mail Address*"
                          component={renderField}/>
 
-                  <Field ElementType="textarea" rows="8" className="form-control" name="requestContent"
+                  <Field ElementType="textarea" className="form-control" name="requestContent"
                          id="request-content"
                          placeholder="Your Message*"
                          component={renderField}/>

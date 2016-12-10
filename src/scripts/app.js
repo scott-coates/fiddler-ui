@@ -6,7 +6,6 @@ import glasses from './../assets/images/glasses.png';
 import helm from './../assets/images/helm.png';
 import clock from './../assets/images/clock.png';
 import chest from './../assets/images/chest.png';
-import './../styles/app.css';
 
 const validate = values => {
   console.log("validate", values); // todo console.log statement

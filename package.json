@@ -20,7 +20,7 @@
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "build-css": "node-sass src/styles/app.scss src/styles/app.css",
-    "watch-css": "node-sass src/styles/app.scss src/styles/app.css -w"
+    "build-css": "node-sass src/styles/index.scss src/styles/index.css",
+    "watch-css": "node-sass src/styles/index.scss src/styles/index.css -w"
   }
 }

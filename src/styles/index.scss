@@ -1,0 +1,71 @@
+@import "variables";
+// Rely on a lot of bootstrap classes, mixins -- defined by our variables and overrides
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "mixins";
+
+@import "app";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $src-font-family;
+}
+
+html, body {
+  // set the font size equal to whatever the user defines as the standard text size (usually 16px)
+  // http://stackoverflow.com/questions/22228568/switching-to-em-based-media-queries
+  // http://css-tricks.com/rems-ems/#comment-1540171
+  font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+
+  &:hover, &:focus {
+    color: $src-bright-brand;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+.content-section {
+  color: $src-dark;
+  background-color: $src-super-bright;
+
+  @include at-least-small-screen-styles {
+    padding: $src-content-section-vertical-space 0;
+  }
+
+  &.alt-content-section {
+    background-color: $src-dark;
+    color: $src-super-bright;
+  }
+}
+
+body .form-control {
+  @include font-size(18px);
+  color: $src-dark;
+  &::placeholder {
+    color: rgba(69, 63, 70, .5);
+  }
+}
+
+body .form-group {
+  margin-bottom: 38px;
+
+  &.has-error {
+    .form-control {
+      border: 5px solid $src-dark;
+    }
+  }
+}
+
+.help-block {
+  color: $src-super-bright;
+}

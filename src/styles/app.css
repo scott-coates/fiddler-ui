@@ -6409,6 +6409,11 @@ body .form-group {
         .app .signup .signup-container input {
           font-size: 18px;
           font-size: 1.125rem; } }
+    .app .signup .signup-container textarea {
+      /*$break-size hack: force large media query*/ }
+      @media only screen and (min-width: 1px) {
+        .app .signup .signup-container textarea {
+          height: 180px; } }
     .app .signup .signup-container .btn-sign-up {
       border: 1px solid white;
       width: 100%;

@@ -58,7 +58,6 @@ class App extends Component {
       "$email": values.email,    // only special properties need the $
 
       "$created": new Date(),
-      "$last_login": new Date(),         // properties can be dates...
 
       "name": values.name                    // feel free to define your own properties
     });

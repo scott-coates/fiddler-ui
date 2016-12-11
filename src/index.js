@@ -7,12 +7,16 @@ import { combineReducers, createStore } from 'redux';
 import { Provider } from 'react-redux'
 import { reducer as formReducer } from 'redux-form'
 
+import mixpanel from 'mixpanel-browser';
+
 require('smoothscroll-polyfill').polyfill();
 
 import App from './scripts/app';
 import ThankYou from './scripts/thank-you';
 
 import './styles/index.css';
+
+mixpanel.init('725b1cc3cf70595fe86ac3f8a3c2f008');
 
 const rootReducer = combineReducers({
   form: formReducer

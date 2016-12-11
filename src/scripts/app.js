@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 
 import { Field, reduxForm } from 'redux-form'
 
+import mixpanel from 'mixpanel-browser';
+
 import glasses from './../assets/images/glasses.png';
 import helm from './../assets/images/helm.png';
 import clock from './../assets/images/clock.png';
 import chest from './../assets/images/chest.png';
 
 const validate = values => {
-  console.log("validate", values); // todo console.log statement
   const errors = {};
 
   if (!values.name) {
@@ -52,8 +53,17 @@ class App extends Component {
 
 
   onSubmit(values) {
-    // Do something with the form values
-    console.log(values);
+    mixpanel.identify(values.email);
+    mixpanel.people.set({
+      "$email": values.email,    // only special properties need the $
+
+      "$created": new Date(),
+      "$last_login": new Date(),         // properties can be dates...
+
+      "name": values.name                    // feel free to define your own properties
+    });
+
+    window.location = '/thank-you';
   }
 
   render() {
@@ -62,7 +72,7 @@ class App extends Component {
     return (
       <div className="app">
         <div className="above-the-fold hello">
-          <div className="logo-wrapper">
+          <div className="ego-wrapper">
             <img src={glasses}/>
             <span className="logo-text">Punk Rock Playlist</span>
           </div>

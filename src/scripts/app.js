@@ -66,7 +66,7 @@ class App extends Component {
       'request_content': values.requestContent
     });
 
-    //window.location = '/thank-you';
+    window.location = '/thank-you';
   }
 
   render() {

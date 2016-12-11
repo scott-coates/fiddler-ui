@@ -63,10 +63,10 @@ class App extends Component {
     });
 
     mixpanel.track('playlist:requested', {
-      'requestContent': values.requestContent
+      'request_content': values.requestContent
     });
 
-    window.location = '/thank-you';
+    //window.location = '/thank-you';
   }
 
   render() {

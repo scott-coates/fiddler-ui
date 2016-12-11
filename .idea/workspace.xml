@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="999f6d93-9012-4710-8953-9685f592b4c6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/app.js" afterPath="$PROJECT_DIR$/src/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/_mixins.scss" afterPath="$PROJECT_DIR$/src/styles/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/app.scss" afterPath="$PROJECT_DIR$/src/styles/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/index.css" afterPath="$PROJECT_DIR$/src/styles/index.css" />
     </list>
     <ignored path="fiddler-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,7 +95,7 @@
                     <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
                       <entry file="file://$PROJECT_DIR$/src/index.js">
                         <provider selected="true" editor-type-id="text-editor">
-                          <state vertical-scroll-proportion="0.616">
+                          <state vertical-scroll-proportion="0.28">
                             <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
                             <folding />
                           </state>
@@ -123,8 +119,8 @@
                     <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
                       <entry file="file://$PROJECT_DIR$/src/scripts/app.js">
                         <provider selected="true" editor-type-id="text-editor">
-                          <state vertical-scroll-proportion="0.72074467">
-                            <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+                          <state vertical-scroll-proportion="0.6648936">
+                            <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
                             <folding />
                           </state>
                         </provider>
@@ -668,7 +664,8 @@
     <MESSAGE value="send mixpanel" />
     <MESSAGE value="signup" />
     <MESSAGE value="added welcome email" />
-    <option name="LAST_COMMIT_MESSAGE" value="added welcome email" />
+    <MESSAGE value="mixpanel track" />
+    <option name="LAST_COMMIT_MESSAGE" value="mixpanel track" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1077,7 +1074,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.616">
+        <state vertical-scroll-proportion="0.28">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding />
         </state>
@@ -1085,8 +1082,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72074467">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.6648936">
+          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
           <folding />
         </state>
       </provider>

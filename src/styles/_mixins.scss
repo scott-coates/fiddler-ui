@@ -8,7 +8,7 @@
 
   // https://app.asana.com/0/10235149247655/112319908245368
   /*$break-size hack: force large media query*/
-  @media only screen and (min-width: 1px) {
+  @media only screen and (min-width: $break-size) {
     @content;
   }
 }

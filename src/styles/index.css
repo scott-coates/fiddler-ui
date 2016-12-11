@@ -6265,7 +6265,7 @@ button.close {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     /*$break-size hack: force large media query*/ }
-    @media only screen and (min-width: 1px) {
+    @media only screen and (min-width: 48em) {
       .app .above-the-fold .logo-wrapper {
         padding: 16px 20px; }
         .app .above-the-fold .logo-wrapper .logo-text {
@@ -6282,7 +6282,7 @@ button.close {
     margin-right: auto;
     padding: 24px 48px;
     /*$break-size hack: force large media query*/ }
-    @media only screen and (min-width: 1px) {
+    @media only screen and (min-width: 48em) {
       .app .above-the-fold .sign-up-wrapper .btn-lg, .app .above-the-fold .sign-up-wrapper .btn-group-lg > .btn {
         font-size: 24px;
         font-size: 1.5rem;
@@ -6294,7 +6294,7 @@ button.close {
 
 .app .features h3 {
   /*$break-size hack: force large media query*/ }
-  @media only screen and (min-width: 1px) {
+  @media only screen and (min-width: 48em) {
     .app .features h3 {
       font-size: 36px;
       font-size: 2.25rem;
@@ -6302,14 +6302,17 @@ button.close {
 
 .app .features p {
   /*$break-size hack: force large media query*/ }
-  @media only screen and (min-width: 1px) {
+  @media only screen and (min-width: 48em) {
     .app .features p {
       font-size: 24px;
       font-size: 1.5rem; } }
 
 .app .features img {
+  display: block;
+  max-width: 100%;
+  height: auto;
   /*$break-size hack: force large media query*/ }
-  @media only screen and (min-width: 1px) {
+  @media only screen and (min-width: 48em) {
     .app .features img {
       height: 224px; } }
 
@@ -6319,7 +6322,7 @@ button.close {
   text-align: center; }
   .app .signup .signup-container {
     /*$break-size hack: force large media query*/ }
-    @media only screen and (min-width: 1px) {
+    @media only screen and (min-width: 48em) {
       .app .signup .signup-container {
         display: block;
         margin-left: auto;
@@ -6328,27 +6331,27 @@ button.close {
     .app .signup .signup-container h3 {
       font-weight: bold;
       /*$break-size hack: force large media query*/ }
-      @media only screen and (min-width: 1px) {
+      @media only screen and (min-width: 48em) {
         .app .signup .signup-container h3 {
           font-size: 36px;
           font-size: 2.25rem;
           margin: 32px 0; } }
     .app .signup .signup-container p {
       /*$break-size hack: force large media query*/ }
-      @media only screen and (min-width: 1px) {
+      @media only screen and (min-width: 48em) {
         .app .signup .signup-container p {
           font-size: 24px;
           font-size: 1.5rem;
           margin-bottom: 70px; } }
     .app .signup .signup-container input {
       /*$break-size hack: force large media query*/ }
-      @media only screen and (min-width: 1px) {
+      @media only screen and (min-width: 48em) {
         .app .signup .signup-container input {
           font-size: 18px;
           font-size: 1.125rem; } }
     .app .signup .signup-container textarea {
       /*$break-size hack: force large media query*/ }
-      @media only screen and (min-width: 1px) {
+      @media only screen and (min-width: 48em) {
         .app .signup .signup-container textarea {
           height: 180px; } }
     .app .signup .signup-container .btn-sign-up {
@@ -6369,7 +6372,7 @@ button.close {
     .app .footer ul li.social {
       float: right;
       /*$break-size hack: force large media query*/ }
-      @media only screen and (min-width: 1px) {
+      @media only screen and (min-width: 48em) {
         .app .footer ul li.social {
           margin-right: 0;
           padding-top: 5px;
@@ -6380,7 +6383,7 @@ button.close {
         color: #CF3E61;
         border-radius: 50%;
         /*$break-size hack: force large media query*/ }
-        @media only screen and (min-width: 1px) {
+        @media only screen and (min-width: 48em) {
           .app .footer ul li.social i {
             width: 20px;
             height: 20px;
@@ -6414,7 +6417,7 @@ p {
   color: #453F46;
   background-color: white;
   /*$break-size hack: force large media query*/ }
-  @media only screen and (min-width: 1px) {
+  @media only screen and (min-width: 48em) {
     .content-section {
       padding: 160px 0; } }
   .content-section.alt-content-section {
@@ -6443,7 +6446,7 @@ body .form-group {
   .hello .jumbotron {
     background: none;
     /*$break-size hack: force large media query*/ }
-    @media only screen and (min-width: 1px) {
+    @media only screen and (min-width: 48em) {
       .hello .jumbotron {
         padding: 210px 0 0; }
         .hello .jumbotron h1 {

@@ -62,6 +62,10 @@ class App extends Component {
       "name": values.name                    // feel free to define your own properties
     });
 
+    mixpanel.track('playlist:requested', {
+      'requestContent': values.requestContent
+    });
+
     window.location = '/thank-you';
   }
 
@@ -71,7 +75,7 @@ class App extends Component {
     return (
       <div className="app">
         <div className="above-the-fold hello">
-          <div className="ego-wrapper">
+          <div className="logo-wrapper">
             <img src={glasses}/>
             <span className="logo-text">Punk Rock Playlist</span>
           </div>

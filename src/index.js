@@ -17,6 +17,9 @@ import ThankYou from './scripts/thank-you';
 import './styles/index.css';
 
 mixpanel.init('725b1cc3cf70595fe86ac3f8a3c2f008');
+mixpanel.track('page:viewed', {
+  'url': window.location
+});
 
 const rootReducer = combineReducers({
   form: formReducer

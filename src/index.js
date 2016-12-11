@@ -18,7 +18,7 @@ import './styles/index.css';
 
 mixpanel.init('725b1cc3cf70595fe86ac3f8a3c2f008');
 mixpanel.track('page:viewed', {
-  'url': window.location
+  'url': window.location.toString()
 });
 
 const rootReducer = combineReducers({

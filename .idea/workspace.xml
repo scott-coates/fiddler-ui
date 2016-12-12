@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="999f6d93-9012-4710-8953-9685f592b4c6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fiddler-website.iml" afterPath="$PROJECT_DIR$/.idea/fiddler-website.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/communication/welcome-email.html" afterPath="$PROJECT_DIR$/src/communication/welcome-email.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/app.js" afterPath="$PROJECT_DIR$/src/scripts/app.js" />
     </list>
     <ignored path="fiddler-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,199 +21,38 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <splitter split-orientation="horizontal" split-proportion="0.346875">
-            <split-first>
-              <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
-                  <entry file="file://$PROJECT_DIR$/src/styles/_mixins.scss">
-                    <provider selected="true" editor-type-id="text-editor">
-                      <state vertical-scroll-proportion="0.0">
-                        <caret line="4" column="27" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="27" />
-                        <folding />
-                      </state>
-                    </provider>
-                  </entry>
-                </file>
-                <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-                  <entry file="file://$PROJECT_DIR$/src/styles/_variables.scss">
-                    <provider selected="true" editor-type-id="text-editor">
-                      <state vertical-scroll-proportion="0.0">
-                        <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-                        <folding />
-                      </state>
-                    </provider>
-                  </entry>
-                </file>
-                <file leaf-file-name="_bootstrap.scss" pinned="false" current-in-tab="false">
-                  <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss">
-                    <provider selected="true" editor-type-id="text-editor">
-                      <state vertical-scroll-proportion="0.0">
-                        <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-                        <folding />
-                      </state>
-                    </provider>
-                  </entry>
-                </file>
-                <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
-                  <entry file="file://$PROJECT_DIR$/src/styles/app.scss">
-                    <provider selected="true" editor-type-id="text-editor">
-                      <state vertical-scroll-proportion="2.1346154">
-                        <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-                        <folding />
-                      </state>
-                    </provider>
-                  </entry>
-                </file>
-              </leaf>
-            </split-first>
-            <split-second>
-              <splitter split-orientation="vertical" split-proportion="0.5">
-                <split-first>
-                  <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                    <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-                      <entry file="file://$PROJECT_DIR$/public/index.html">
-                        <provider selected="true" editor-type-id="text-editor">
-                          <state vertical-scroll-proportion="-5.6538463">
-                            <caret line="17" column="89" selection-start-line="17" selection-start-column="89" selection-end-line="17" selection-end-column="89" />
-                            <folding />
-                          </state>
-                        </provider>
-                      </entry>
-                    </file>
-                    <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-                      <entry file="file://$PROJECT_DIR$/src/scripts/app.js">
-                        <provider selected="true" editor-type-id="text-editor">
-                          <state vertical-scroll-proportion="0.576">
-                            <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-                            <folding />
-                          </state>
-                        </provider>
-                      </entry>
-                    </file>
-                    <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-                      <entry file="file://$PROJECT_DIR$/src/index.js">
-                        <provider selected="true" editor-type-id="text-editor">
-                          <state vertical-scroll-proportion="0.0">
-                            <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-                            <folding />
-                          </state>
-                        </provider>
-                      </entry>
-                    </file>
-                    <file leaf-file-name="main.febfda80.js" pinned="false" current-in-tab="false">
-                      <entry file="file://$PROJECT_DIR$/build/static/js/main.febfda80.js">
-                        <provider selected="true" editor-type-id="text-editor">
-                          <state vertical-scroll-proportion="0.0">
-                            <caret line="2" column="22256" selection-start-line="2" selection-start-column="22256" selection-end-line="2" selection-end-column="22256" />
-                            <folding />
-                          </state>
-                        </provider>
-                      </entry>
-                    </file>
-                    <file leaf-file-name="scratch_67" pinned="false" current-in-tab="false">
-                      <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_67">
-                        <provider selected="true" editor-type-id="text-editor">
-                          <state vertical-scroll-proportion="0.0">
-                            <caret line="0" column="245" selection-start-line="0" selection-start-column="241" selection-end-line="0" selection-end-column="245" />
-                            <folding />
-                          </state>
-                        </provider>
-                      </entry>
-                    </file>
-                  </leaf>
-                </split-first>
-                <split-second>
-                  <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                    <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-                      <entry file="file://$PROJECT_DIR$/src/scripts/app.js">
-                        <provider selected="true" editor-type-id="text-editor">
-                          <state vertical-scroll-proportion="0.6648936">
-                            <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-                            <folding />
-                          </state>
-                        </provider>
-                      </entry>
-                    </file>
-                  </leaf>
-                </split-second>
-              </splitter>
-            </split-second>
-          </splitter>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="fiddler-website" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="thank-you.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/thank-you.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="38" selection-start-line="9" selection-start-column="33" selection-end-line="12" selection-end-column="12" />
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/index.scss">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.03846154">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.50501">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/_mixins.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.4230769">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome-email.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/communication/welcome-email.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="9.499289">
-              <caret line="318" column="34" selection-start-line="318" selection-start-column="34" selection-end-line="318" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#span#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#5;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#span#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#5;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1481499866000" expanded="true" signature="3391:3451" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="3406:3451" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="4004:4080" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="4027:4080" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="5370:5430" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="5385:5430" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="6785:6845" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="6800:6845" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="9316:9376" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="9331:9376" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="10952:11012" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="10967:11012" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="12588:12648" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="12603:12648" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="14262:14322" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="14277:14322" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="15820:15880" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="15835:15880" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="16412:16435" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="17593:17610" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="19589:19649" placeholder="..." />
-                <marker date="1481499866000" expanded="true" signature="19604:19649" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -250,10 +90,11 @@
         <option value="$PROJECT_DIR$/src/scripts/thank-you.js" />
         <option value="$PROJECT_DIR$/src/styles/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/styles/app.scss" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_67" />
-        <option value="$PROJECT_DIR$/src/scripts/app.js" />
         <option value="$PROJECT_DIR$/src/communication/welcome-email.html" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_68" />
+        <option value="$PROJECT_DIR$/src/scripts/app.js" />
       </list>
     </option>
   </component>
@@ -670,9 +511,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676682" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23676682" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -715,21 +556,14 @@
     <MESSAGE value="mixpanel track" />
     <MESSAGE value="changed data" />
     <MESSAGE value="track correcly" />
-    <option name="LAST_COMMIT_MESSAGE" value="track correcly" />
+    <MESSAGE value=".co" />
+    <option name="LAST_COMMIT_MESSAGE" value=".co" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="992" column="240" selection-start-line="992" selection-start-column="240" selection-end-line="992" selection-end-column="240" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -971,14 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.febfda80.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="22256" selection-start-line="2" selection-start-column="22256" selection-end-line="2" selection-end-column="22256" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -1043,6 +869,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.069241">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.6538463">
@@ -1051,66 +885,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/thank-you.js">
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.febfda80.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="38" selection-start-line="9" selection-start-column="33" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.03846154">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.1346154">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4230769">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state vertical-scroll-proportion="49.428192">
+          <caret line="2" column="22256" selection-start-line="2" selection-start-column="22256" selection-end-line="2" selection-end-column="22256" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_67">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.42021278">
           <caret line="0" column="245" selection-start-line="0" selection-start-column="241" selection-end-line="0" selection-end-column="245" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.576">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/communication/welcome-email.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.499289">
-          <caret line="318" column="34" selection-start-line="318" selection-start-column="34" selection-end-line="318" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.31643835">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#a#0;n#span#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#5;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#span#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#5;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1137,6 +931,54 @@
             <marker date="1481499866000" expanded="true" signature="19589:19649" placeholder="..." />
             <marker date="1481499866000" expanded="true" signature="19604:19649" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08630137">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.001369863">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_68">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/thank-you.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50501">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

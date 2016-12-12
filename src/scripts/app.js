@@ -4,6 +4,8 @@ import { Field, reduxForm } from 'redux-form'
 
 import mixpanel from 'mixpanel-browser';
 
+import firebase from 'firebase';
+
 import glasses from './../assets/images/glasses.png';
 import helm from './../assets/images/helm.png';
 import clock from './../assets/images/clock.png';
@@ -64,7 +66,19 @@ class App extends Component {
 
     mixpanel.track('playlist:requested', {
       'request_content': values.requestContent
-    }, () => window.location = '/thank-you');
+    }, () => {
+
+      firebase.database().ref('requests').push({
+        name: values.name,
+        email: values.email,
+        request_content: values.requestContent,
+        request_time: new Date().getTime(),
+        request_time_str: new Date().toString()
+      }).then(function (snapshot) {
+        window.location = '/thank-you';
+      });
+
+    });
   }
 
   render() {

@@ -88,10 +88,10 @@ class App extends Component {
     return (
       <div className="app">
         <div className="above-the-fold hello">
-          <div className="logo-wrapper">
+          <a className="logo-wrapper" href="/">
             <img src={glasses}/>
             <span className="logo-text">Punk Rock Playlist</span>
-          </div>
+          </a>
           <div className="jumbotron">
             <div className="container">
               <div className="row">
@@ -205,7 +205,8 @@ class App extends Component {
         </footer>
 
       </div>
-    );
+    )
+      ;
   }
 }
 

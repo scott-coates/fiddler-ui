@@ -55,7 +55,6 @@ class App extends Component {
 
 
   onSubmit(values) {
-    mixpanel.identify(values.email);
     mixpanel.people.set({
       "$email": values.email,    // only special properties need the $
 
@@ -63,6 +62,8 @@ class App extends Component {
 
       "name": values.name                    // feel free to define your own properties
     });
+
+    mixpanel.identify(values.email);
 
     mixpanel.track('playlist:requested', {
       'request_content': values.requestContent

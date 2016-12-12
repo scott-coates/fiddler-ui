@@ -85,6 +85,9 @@ class App extends Component {
 
     return (
       <div className="app">
+        <small>You are running this application in <b></b> mode.</small>
+
+
         <div className="above-the-fold hello">
           <a className="logo-wrapper" href="/">
             <img src={glasses}/>

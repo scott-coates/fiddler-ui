@@ -8,6 +8,8 @@
     "react-scripts": "0.8.3"
   },
   "dependencies": {
+    "analytics-node": "2.1.0",
+    "analytics.js-loader": "2.1.2",
     "bootstrap-sass": "3.3.7",
     "firebase": "3.6.3",
     "mixpanel-browser": "2.9.17",
@@ -17,6 +19,7 @@
     "react-router": "3.0.0",
     "redux": "3.5.2",
     "redux-form": "6.1.1",
+    "segmentio": "0.1.4",
     "smoothscroll-polyfill": "0.3.4"
   },
   "scripts": {

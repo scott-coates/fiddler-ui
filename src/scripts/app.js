@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import { Field, reduxForm } from 'redux-form'
 
-import mixpanel from 'mixpanel-browser';
+import analytics from './analytics';
 
 import firebase from 'firebase';
 
@@ -55,19 +55,17 @@ class App extends Component {
 
 
   onSubmit(values) {
-    mixpanel.people.set({
-      "$email": values.email,    // only special properties need the $
+    analytics.identify(values.email, {
+      "email": values.email,    // segment trait
 
-      "$created": new Date(),
+      "createdAt": new Date().getTime(), // segment trait
 
       "name": values.name                    // feel free to define your own properties
     });
 
-    mixpanel.identify(values.email);
-
-    mixpanel.track('playlist:requested', {
+    analytics.track('playlist:requested', {
       'request_content': values.requestContent
-    }, () => {
+    }, null /*options*/, () => {
 
       firebase.database().ref('requests').push({
         name: values.name,

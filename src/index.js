@@ -9,19 +9,12 @@ import { reducer as formReducer } from 'redux-form'
 
 import firebase from 'firebase';
 
-import mixpanel from 'mixpanel-browser';
-
 require('smoothscroll-polyfill').polyfill();
 
 import App from './scripts/app';
 import ThankYou from './scripts/thank-you';
 
 import './styles/index.css';
-
-mixpanel.init('725b1cc3cf70595fe86ac3f8a3c2f008');
-mixpanel.track('page:viewed', {
-  'url': window.location.toString()
-});
 
 // Initialize Firebase
 var config = {

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class ThankYou extends Component {
-
   render() {
     return (
       <div className="thank-you hello">

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999f6d93-9012-4710-8953-9685f592b4c6" name="Default" comment="store in firebase">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.firebaserc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database.rules.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/firebase.json" />
+    <list default="true" id="999f6d93-9012-4710-8953-9685f592b4c6" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/communication/welcome-email.html" afterPath="$PROJECT_DIR$/src/resources/communication/welcome-email.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/firebase.json" afterPath="$PROJECT_DIR$/firebase.json" />
     </list>
     <ignored path="fiddler-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,22 +66,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.rules.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="database.rules.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database.rules.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.088794924">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="firebase.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="firebase.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firebase.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6215645">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.0384617">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome-email.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/communication/welcome-email.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.076923">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#span#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#5;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#span#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#5;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1481499866000" expanded="true" signature="3391:3451" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="3406:3451" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="4004:4080" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="4027:4080" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="5370:5430" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="5385:5430" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="6785:6845" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="6800:6845" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="9316:9376" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="9331:9376" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="10952:11012" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="10967:11012" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="12588:12648" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="12603:12648" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="14262:14322" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="14277:14322" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="15820:15880" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="15835:15880" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="16412:16435" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="17593:17610" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="19589:19649" placeholder="..." />
+                <marker date="1481499866000" expanded="true" signature="19604:19649" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_68" />
         <option value="$PROJECT_DIR$/src/scripts/app.js" />
+        <option value="$PROJECT_DIR$/src/resources/deploy/firebase/firebase.json" />
       </list>
     </option>
   </component>
@@ -207,24 +241,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fiddler-website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fiddler-website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -254,18 +270,19 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/resources/deploy/firebase" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/assets/resources" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/styles" />
       <recent name="$PROJECT_DIR$/src/scripts" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/images" />
-      <recent name="$PROJECT_DIR$/src/scripts" />
-      <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/styles" />
     </key>
   </component>
   <component name="RunManager">
@@ -536,19 +553,19 @@
     <editor active="true" />
     <layout>
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23962805" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23962805" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -589,7 +606,8 @@
     <MESSAGE value="track correcly" />
     <MESSAGE value=".co" />
     <MESSAGE value="store in firebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="store in firebase" />
+    <MESSAGE value="adding firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding firebase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -621,6 +639,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -691,6 +710,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -841,6 +861,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9767442">
           <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -876,13 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42021278">
           <caret line="0" column="245" selection-start-line="0" selection-start-column="241" selection-end-line="0" selection-end-column="245" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/communication/welcome-email.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31643835">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -931,15 +945,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.firebaserc">
+    <entry file="file://$PROJECT_DIR$/src/resources/communication/welcome-email.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-6.076923">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#span#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#5;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#span#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#5;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1481499866000" expanded="true" signature="3391:3451" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="3406:3451" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="4004:4080" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="4027:4080" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="5370:5430" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="5385:5430" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="6785:6845" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="6800:6845" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="9316:9376" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="9331:9376" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="10952:11012" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="10967:11012" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="12588:12648" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="12603:12648" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="14262:14322" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="14277:14322" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="15820:15880" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="15835:15880" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="16412:16435" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="17593:17610" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="19589:19649" placeholder="..." />
+            <marker date="1481499866000" expanded="true" signature="19604:19649" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database.rules.json">
+    <entry file="file://$PROJECT_DIR$/.firebaserc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -949,8 +988,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/firebase.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6215645">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.0384617">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.rules.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.088794924">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>

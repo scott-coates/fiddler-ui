@@ -17,12 +17,12 @@ import ThankYou from './scripts/thank-you';
 import './styles/index.css';
 
 // Initialize Firebase
-var config = {
-  apiKey: "AIzaSyD7SDyiUGMjHQ6XvRyHjwSnZPujthGlnl8",
-  authDomain: "fiddler-website.firebaseapp.com",
-  databaseURL: "https://fiddler-website.firebaseio.com",
-  storageBucket: "fiddler-website.appspot.com",
-  messagingSenderId: "526982849109"
+const config = {
+  apiKey: "AIzaSyBFfilyiSGX53dec-ZQejEQbCn0sg6ODRw",
+  authDomain: "fiddler-production.firebaseapp.com",
+  databaseURL: "https://fiddler-production.firebaseio.com",
+  storageBucket: "fiddler-production.appspot.com",
+  messagingSenderId: "815704709076"
 };
 firebase.initializeApp(config);
 

@@ -58,9 +58,9 @@ class App extends Component {
     analytics.identify(values.email, {
       "email": values.email,    // segment trait
 
-      "createdAt": parseInt(Date.now() / 1000), // segment trait - divide by 1000 to remove milliseconds.
+      "created_at": parseInt(Date.now() / 1000), // segment trait - divide by 1000 to remove milliseconds.
 
-      "firstName": values.firstName // feel free to define your own properties
+      "first_name": values.firstName // feel free to define your own properties
     });
 
     analytics.track('playlist:requested', {
@@ -68,7 +68,7 @@ class App extends Component {
     }, null /*options*/, () => {
 
       firebase.database().ref('requests').push({
-        firstName: values.firstName,
+        first_name: values.firstName,
         email: values.email,
         request_content: values.requestContent,
         request_time: new Date().getTime(),

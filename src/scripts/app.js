@@ -14,8 +14,8 @@ import chest from './../assets/images/chest.png';
 const validate = values => {
   const errors = {};
 
-  if (!values.name) {
-    errors.name = 'Required';
+  if (!values.firstName) {
+    errors.firstName = 'Required';
   }
 
   if (!values.email) {
@@ -60,7 +60,7 @@ class App extends Component {
 
       "createdAt": new Date().getTime(), // segment trait
 
-      "name": values.name                    // feel free to define your own properties
+      "firstName": values.firstName // feel free to define your own properties
     });
 
     analytics.track('playlist:requested', {
@@ -68,7 +68,7 @@ class App extends Component {
     }, null /*options*/, () => {
 
       firebase.database().ref('requests').push({
-        name: values.name,
+        firstName: values.firstName,
         email: values.email,
         request_content: values.requestContent,
         request_time: new Date().getTime(),
@@ -164,8 +164,8 @@ class App extends Component {
                   Lastly, jot down some music you don’t like too (screamo, pop punk).
                 </p>
                 <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
-                  <Field ElementType="input" type="text" className="form-control" name="name" id="name"
-                         placeholder="Your Name*"
+                  <Field ElementType="input" type="text" className="form-control" name="firstName" id="name"
+                         placeholder="Your First Name*"
                          component={renderField}/>
                   <Field ElementType="input" type="email" className="form-control" name="email" id="email"
                          placeholder="Your E-mail Address*"

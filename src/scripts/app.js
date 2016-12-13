@@ -58,7 +58,7 @@ class App extends Component {
     analytics.identify(values.email, {
       "email": values.email,    // segment trait
 
-      "createdAt": new Date().getTime(), // segment trait
+      "createdAt": Date.now() / 1000, // segment trait - divide by 1000 to remove milliseconds.
 
       "firstName": values.firstName // feel free to define your own properties
     });

@@ -56,11 +56,10 @@ class App extends Component {
 
   onSubmit(values) {
     analytics.identify(values.email, {
+      // segment traits use camelCasing
       "email": values.email,    // segment trait
-
-      "created_at": parseInt(Date.now() / 1000), // segment trait - divide by 1000 to remove milliseconds.
-
-      "first_name": values.firstName // feel free to define your own properties
+      "createdAt": parseInt(Date.now() / 1000), // segment trait - divide by 1000 to remove milliseconds.
+      "firstName": values.firstName // segment trait
     });
 
     analytics.track('playlist:requested', {

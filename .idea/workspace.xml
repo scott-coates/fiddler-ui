@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="999f6d93-9012-4710-8953-9685f592b4c6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/app.js" afterPath="$PROJECT_DIR$/src/scripts/app.js" />
     </list>
     <ignored path="fiddler-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,18 +28,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5731463">
-              <caret line="165" column="103" selection-start-line="165" selection-start-column="103" selection-end-line="165" selection-end-column="103" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="analytics.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/analytics.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="91" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="91" />
+            <state vertical-scroll-proportion="0.026052104">
+              <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -86,6 +76,7 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/scripts/analytics.js" />
         <option value="$PROJECT_DIR$/src/scripts/app.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -533,7 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="capture data" />
     <MESSAGE value="updated stuff" />
     <MESSAGE value="updated css" />
     <MESSAGE value="updated deps" />
@@ -558,7 +548,8 @@
     <MESSAGE value="changed to first name" />
     <MESSAGE value="time thing" />
     <MESSAGE value="changed keys" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed keys" />
+    <MESSAGE value="change to name" />
+    <option name="LAST_COMMIT_MESSAGE" value="change to name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -900,9 +891,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9158317">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/analytics.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.08416834">
           <caret line="2" column="91" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="91" />
           <folding />
         </state>
@@ -910,8 +909,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5731463">
-          <caret line="165" column="103" selection-start-line="165" selection-start-column="103" selection-end-line="165" selection-end-column="103" />
+        <state vertical-scroll-proportion="0.026052104">
+          <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
           <folding />
         </state>
       </provider>

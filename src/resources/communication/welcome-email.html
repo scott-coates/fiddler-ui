@@ -1,116 +1,113 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="initial-scale=1.0">
-  <meta name="format-detection" content="telephone=no">
-  <title>MOSAICO Responsive Email Designer</title>
-  <style type="text/css">table.vb-row.halfpad {
-    border-spacing: 0;
-    padding-left: 9px;
-    padding-right: 9px;
+<html>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>MOSAICO Responsive Email Designer</title>
+<style type="text/css">table.vb-row.halfpad {
+  border-spacing: 0;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+table.vb-row.fullwidth {
+  border-spacing: 0;
+  padding: 0;
+}
+
+table.vb-container.fullwidth {
+  padding-left: 0;
+  padding-right: 0;
+}</style>
+<style type="text/css">
+  /* yahoo, hotmail */
+  .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+    line-height: 100%;
   }
 
-  table.vb-row.fullwidth {
-    border-spacing: 0;
+  .yshortcuts a {
+    border-bottom: none !important;
+  }
+
+  .vb-outer {
+    min-width: 0 !important;
+  }
+
+  .RMsgBdy, .ExternalClass {
+    width: 100%;
+    background-color: #3f3f3f;
+    background-color: #453F46
+  }
+
+  /* outlook */
+  table {
+    mso-table-rspace: 0pt;
+    mso-table-lspace: 0pt;
+  }
+
+  #outlook a {
     padding: 0;
   }
 
-  table.vb-container.fullwidth {
-    padding-left: 0;
-    padding-right: 0;
-  }</style>
-  <style type="text/css">
-    /* yahoo, hotmail */
-    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
-      line-height: 100%;
-    }
-
-    .yshortcuts a {
-      border-bottom: none !important;
-    }
-
-    .vb-outer {
-      min-width: 0 !important;
-    }
-
-    .RMsgBdy, .ExternalClass {
-      width: 100%;
-      background-color: #3f3f3f;
-      background-color: #453F46
-    }
-
-    /* outlook */
-    table {
-      mso-table-rspace: 0pt;
-      mso-table-lspace: 0pt;
-    }
-
-    #outlook a {
-      padding: 0;
-    }
-
-    img {
-      outline: none;
-      text-decoration: none;
-      border: none;
-      -ms-interpolation-mode: bicubic;
-    }
-
-    a img {
-      border: none;
-    }
-
-    @media screen and (max-device-width: 600px), screen and (max-width: 600px) {
-      table.vb-container, table.vb-row {
-        width: 95% !important;
-      }
-
-      .mobile-hide {
-        display: none !important;
-      }
-
-      .mobile-textcenter {
-        text-align: center !important;
-      }
-
-      .mobile-full {
-        float: none !important;
-        width: 100% !important;
-        max-width: none !important;
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-      }
-
-      img.mobile-full {
-        width: 100% !important;
-        max-width: none !important;
-        height: auto !important;
-      }
-    }
-  </style>
-  <style
-      type="text/css">#ko_singleArticleBlock_4 .links-color a, #ko_singleArticleBlock_4 .links-color a:link, #ko_singleArticleBlock_4 .links-color a:visited, #ko_singleArticleBlock_4 .links-color a:hover {
-    color: #3f3f3f;
-    color: #3f3f3f;
-    text-decoration: underline;
+  img {
+    outline: none;
+    text-decoration: none;
+    border: none;
+    -ms-interpolation-mode: bicubic;
   }
 
-  #ko_socialBlock_2 .links-color a:visited, #ko_socialBlock_2 .links-color a:hover {
-    color: #ccc;
-    color: #ccc;
-    text-decoration: underline;
+  a img {
+    border: none;
   }
 
-  #ko_footerBlock_2 .links-color a:visited, #ko_footerBlock_2 .links-color a:hover {
-    color: #ccc;
-    color: #ccc;
-    text-decoration: underline;
-  }</style>
-</head>
-<body bgcolor="#453F46" text="#919191" alink="#cccccc" vlink="#cccccc"
-      style="margin: 0;padding: 0;background-color: #453f46;color: #919191;">
+  @media screen and (max-device-width: 600px), screen and (max-width: 600px) {
+    table.vb-container, table.vb-row {
+      width: 95% !important;
+    }
+
+    .mobile-hide {
+      display: none !important;
+    }
+
+    .mobile-textcenter {
+      text-align: center !important;
+    }
+
+    .mobile-full {
+      float: none !important;
+      width: 100% !important;
+      max-width: none !important;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+
+    img.mobile-full {
+      width: 100% !important;
+      max-width: none !important;
+      height: auto !important;
+    }
+  }
+</style>
+<style
+    type="text/css">#ko_singleArticleBlock_4 .links-color a, #ko_singleArticleBlock_4 .links-color a:link, #ko_singleArticleBlock_4 .links-color a:visited, #ko_singleArticleBlock_4 .links-color a:hover {
+  color: #3f3f3f;
+  color: #3f3f3f;
+  text-decoration: underline;
+}
+
+#ko_socialBlock_2 .links-color a:visited, #ko_socialBlock_2 .links-color a:hover {
+  color: #ccc;
+  color: #ccc;
+  text-decoration: underline;
+}
+
+#ko_footerBlock_2 .links-color a:visited, #ko_footerBlock_2 .links-color a:hover {
+  color: #ccc;
+  color: #ccc;
+  text-decoration: underline;
+}</style>
+
 
 <center>
 
@@ -143,9 +140,11 @@
                     <td align="center" valign="top"><![endif]-->
                 <div class="mobile-full"
                      style="display: inline-block; max-width: 166px; vertical-align: top; width: 100%;">
-                  <img width="166" vspace="0" hspace="0" border="0" alt=""
-                       style="border: 0px;display: block;width: 100%;max-width: 166px;"
-                       src="https://mosaico.io/srv/f-629ku6l/img?src=https%3A%2F%2Fmosaico.io%2Ffiles%2F629ku6l%2Fglasses%2520%25282%2529.png&amp;method=resize&amp;params=166%2Cnull">
+                  <a href="https://www.punkrockplaylist.co" target="_blank" style="text-decoration:none;color:inherit;">
+                    <img width="166" vspace="0" hspace="0" border="0" alt=""
+                         style="border: 0px;display: block;width: 100%;max-width: 166px;"
+                         src="https://mosaico.io/srv/f-629ku6l/img?src=https%3A%2F%2Fmosaico.io%2Ffiles%2F629ku6l%2Fglasses%2520%25282%2529.png&amp;method=resize&amp;params=166%2Cnull">
+                  </a>
                 </div>
                 <!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
 
@@ -178,7 +177,8 @@
             <tr>
               <td bgcolor="#453F46" align="right"
                   style="background-color: #453F46; font-size: 22px; font-family: Verdana, Geneva, sans-serif; color: #ffffff; text-align: center;">
-                <span><strong>Welcome to Punk Rock Playlist</strong></span>
+                <span><strong><a href="https://www.punkrockplaylist.co" target="_blank"
+                                 style="text-decoration:none;color:inherit;">Welcome to Punk Rock Playlist</a></strong></span>
               </td>
             </tr>
             </tbody>
@@ -206,10 +206,10 @@
             <tbody>
             <tr>
               <td width="100%" valign="top" align="left" class="links-color">
-
-                <img border="0" hspace="0" vspace="0" width="534" class="mobile-full" alt=""
-                     style="border: 0px;display: block;vertical-align: top;max-width: 534px;width: 100%;height: auto;border-radius:4px;"
-                     src="https://mosaico.io/srv/f-629ku6l/img?src=https%3A%2F%2Fmosaico.io%2Ffiles%2F629ku6l%2FProfile-min.jpg&amp;method=resize&amp;params=534%2Cnull">
+                <a href="https://www.punkrockplaylist.co" target="_blank" style="text-decoration:none;color:inherit;">
+                  <img border="0" hspace="0" vspace="0" width="534" class="mobile-full" alt=""
+                       style="border: 0px;display: block;vertical-align: top;max-width: 534px;width: 100%;height: auto;border-radius:4px;"
+                       src="https://mosaico.io/srv/f-629ku6l/img?src=https%3A%2F%2Fmosaico.io%2Ffiles%2F629ku6l%2FProfile-min.jpg&amp;method=resize&amp;params=534%2Cnull"></a>
               </td>
             </tr>
             <tr>
@@ -257,7 +257,7 @@
                   <tbody>
                   <tr>
                     <td width="100%" height="20"
-                        style="font-size: 1px; line-height: 20px; width: 100%; background-color: #453F46;"> 
+                        style="font-size: 1px; line-height: 20px; width: 100%; background-color: #453F46;">&nbsp;
                     </td>
                   </tr>
                   </tbody>
@@ -293,7 +293,7 @@
                   <tbody>
                   <tr>
                     <td width="100%" height="40"
-                        style="font-size: 1px; line-height: 40px; width: 100%; background-color: #ffffff;"> 
+                        style="font-size: 1px; line-height: 40px; width: 100%; background-color: #ffffff;">&nbsp;
                     </td>
                   </tr>
                   </tbody>
@@ -327,8 +327,9 @@
               <td bgcolor="#ffffff" align="left"
                   style="background-color: #ffffff; font-size: 22px; font-family: Verdana, Geneva, sans-serif; color: #453F46; text-align: left;">
                 <span>Have a question? Feel free to reach out to us at <a style="color:inherit"
-                                                                          href="mailto:hello@punkrockplaylist.co">hello@punkrockplaylist.co</a> or
-                    <a href="https://twitter.com/prplaylist" style="color:#CF3E61"> on social media.</a></span>
+                                                                          href="mailto:hello@punkrockplaylist.co"
+                                                                          target="_blank">hello@punkrockplaylist.co</a> or
+                    <a href="https://twitter.com/prplaylist" style="color:#CF3E61" target="_blank"> on social media.</a></span>
               </td>
             </tr>
             </tbody>
@@ -360,7 +361,7 @@
                   <tbody>
                   <tr>
                     <td width="100%" height="40"
-                        style="font-size: 1px; line-height: 40px; width: 100%; background-color: #ffffff;"> 
+                        style="font-size: 1px; line-height: 40px; width: 100%; background-color: #ffffff;">&nbsp;
                     </td>
                   </tr>
                   </tbody>
@@ -406,7 +407,7 @@
                       <td valign="middle" align="left" class="long-text links-color mobile-textcenter"
                           style="font-size: 13px; font-family: Arial, Helvetica, sans-serif; color: #919191; text-align: left;">
                         <p style="margin: 1em 0px;margin-bottom: 0px;margin-top: 0px;">This email was sent regarding
-                          your Punk Rock Playlist message request.</p></td>
+                          your&nbsp;Punk Rock Playlist message request.</p></td>
                     </tr>
                     </tbody>
                   </table>
@@ -425,8 +426,8 @@
                           style="font-size: 6px;">
 
 
-                         
-                        <a target="_new" href="https://twitter.com/prplaylist"
+                        &nbsp;
+                        <a target="_blank" href="https://twitter.com/prplaylist"
                            style="display: inline-block;color: #ccc;text-decoration: underline;">
                           <img src="https://mosaico.io/templates/versafix-1/img/social_def/twitter_ok.png" alt="Twitter"
                                border="0" class="socialIcon"
@@ -470,5 +471,5 @@
     </tbody>
   </table><!-- /footerBlock --></center>
 
-</body>
+
 </html>

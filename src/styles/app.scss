@@ -1,8 +1,10 @@
-
 .app {
 
-  h1, h2 {
-    font-weight: bold;
+  .hello {
+    @include at-least-xs {
+      height: inherit;
+      padding-bottom: 25px;
+    }
   }
 
   h3 {
@@ -15,13 +17,10 @@
     //background-image: url(../assets/images/dog-bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 
     @include at-least-xs {
-      background-size: contain;
-    }
-
-    @include at-least-small {
-      background-size: cover;
+      background-position: top left;
     }
 
     .logo-wrapper {

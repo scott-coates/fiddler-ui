@@ -70,7 +70,7 @@ body .form-group {
   color: $src-super-bright;
 }
 
-.hello{
+.hello {
   height: 100vh;
 
   h1, h2 {
@@ -79,6 +79,17 @@ body .form-group {
 
   .jumbotron {
     background: none;
+
+    @include at-least-xs {
+      h1 {
+        @include font-size(36px);
+      }
+
+      h2 {
+        @include font-size(24px);
+        margin-top: 30px;
+      }
+    }
 
     @include at-least-small {
       h1 {

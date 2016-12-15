@@ -38,7 +38,7 @@ p {
   color: $src-dark;
   background-color: $src-super-bright;
 
-  @include at-least-small-screen-styles {
+  @include at-least-small {
     padding: $src-content-section-vertical-space 0;
   }
 
@@ -80,7 +80,7 @@ body .form-group {
   .jumbotron {
     background: none;
 
-    @include at-least-small-screen-styles {
+    @include at-least-small {
       h1 {
         @include font-size(64px);
       }

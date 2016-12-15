@@ -15,7 +15,10 @@ $src-content-section-vertical-space: 160px !default;
 
 // Responsive Viewing
 // --------------------------------------------------
+// taken from bootstrap variables -- "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+$src-screen-xs: 480px !default;
 $src-screen-sm: 768px !default;
+$src-screen-xs-max: ($src-screen-sm - 1) !default;
 
 // Bootstrap
 // --------------------------------------------------
@@ -28,7 +31,5 @@ $bootstrap-sass-asset-helper: true;
 $grid-columns: 24 !default;
 
 $container-lg: 960px !default;
-
-$screen-sm: $src-screen-sm !default;
 
 $brand-primary: $src-bright-brand !default;

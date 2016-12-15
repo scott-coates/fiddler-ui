@@ -92,8 +92,10 @@ class App extends Component {
           <div className="jumbotron">
             <div className="container">
               <div className="row">
-                <h1 className="blurb">Discover New Punk Rock Releases</h1>
-                <h2 className="blurb">Punk Rock Playlist delivers the latest music on demand. 100% free forever.</h2>
+                <div className="col-md-24">
+                  <h1 className="blurb">Discover New Punk Rock Releases</h1>
+                  <h2 className="blurb">Punk Rock Playlist delivers the latest music on demand. 100% free forever.</h2>
+                </div>
               </div>
             </div>
           </div>

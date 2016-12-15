@@ -6256,7 +6256,14 @@ button.close {
   background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../assets/images/dog-bg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; }
+  /*$break-size hack: force large media query*/
+  /*$break-size hack: force large media query*/ }
+  @media only screen and (max-width: 47.9375em) {
+    .app .above-the-fold {
+      background-size: contain; } }
+  @media only screen and (min-width: 48em) {
+    .app .above-the-fold {
+      background-size: cover; } }
   .app .above-the-fold .logo-wrapper {
     text-decoration: none;
     font-weight: bold;
@@ -6265,17 +6272,20 @@ button.close {
     display: inline-block;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
+    padding: 16px 20px; }
+    .app .above-the-fold .logo-wrapper .logo-text {
+      font-size: 20px;
+      font-size: 1.25rem;
+      vertical-align: middle;
+      margin-left: 15px; }
+  .app .above-the-fold .jumbotron {
     /*$break-size hack: force large media query*/ }
     @media only screen and (min-width: 48em) {
-      .app .above-the-fold .logo-wrapper {
-        padding: 16px 20px; }
-        .app .above-the-fold .logo-wrapper .logo-text {
-          font-size: 20px;
-          font-size: 1.25rem;
-          vertical-align: middle;
-          margin-left: 15px; } }
-  .app .above-the-fold .jumbotron .blurb {
-    color: white; }
+      .app .above-the-fold .jumbotron [class*="col-"] {
+        padding-left: 0 !important;
+        padding-right: 0 !important; } }
+    .app .above-the-fold .jumbotron .blurb {
+      color: white; }
   .app .above-the-fold .sign-up-wrapper .btn-lg, .app .above-the-fold .sign-up-wrapper .btn-group-lg > .btn {
     font-weight: bold;
     display: block;

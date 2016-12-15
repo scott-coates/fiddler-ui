@@ -1,14 +1,26 @@
 @import "variables";
 
 // http://zerosixthree.se/8-sass-mixins-you-must-have-in-your-toolbox/
-@mixin at-least-small-screen-styles {
-  $rem-size: $src-screen-sm / $src-font-size-base;
+@mixin media-query($screen-break, $direction) {
+  $rem-size: $screen-break / $src-font-size-base;
 
   $break-size: $rem-size * 1em;
 
   // https://app.asana.com/0/10235149247655/112319908245368
   /*$break-size hack: force large media query*/
-  @media only screen and (min-width: $break-size) {
+  @media only screen and (#{$direction}-width: $break-size) {
+    @content;
+  }
+}
+
+@mixin at-least-small {
+  @include media-query($src-screen-sm, 'min') {
+    @content;
+  }
+}
+
+@mixin at-least-xs {
+  @include media-query($src-screen-xs-max, 'max') {
     @content;
   }
 }
@@ -25,4 +37,11 @@
   font-size: $pixel-size;
   //noinspection CssOverwrittenProperties
   font-size: calculate-rem($pixel-size);
+}
+
+@mixin no-col-padding {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }

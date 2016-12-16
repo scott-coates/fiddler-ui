@@ -152,33 +152,36 @@ class App extends Component {
           </div>
         </div>
 
-        <div className="signup">
+        <div className="content-section signup">
           <div className="container">
             <div className="row">
-              <div className="signup-container">
+              <div className="col-sm-24">
+                <div className="signup-container">
 
-                <h3>Let's do This</h3>
-                <p>
-                  What are you in the mood for? If you're not sure where to start, mention some bands that you like and
-                  why (song structure, harmonies, tempo, etc). Remember to jot down some music you don’t like too
-                  (screamo, pop punk).
-                </p>
-                <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
-                  <Field ElementType="input" type="text" className="form-control" name="name" id="name"
-                         placeholder="Your Full Name*"
-                         component={renderField}/>
-                  <Field ElementType="input" type="email" className="form-control" name="email" id="email"
-                         placeholder="Your E-mail Address*"
-                         component={renderField}/>
+                  <h3>Let's do This</h3>
+                  <p>
+                    What are you in the mood for? If you're not sure where to start, mention some bands that you like
+                    and
+                    why (song structure, harmonies, tempo, etc). Remember to jot down some music you don’t like too
+                    (screamo, pop punk).
+                  </p>
+                  <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
+                    <Field ElementType="input" type="text" className="form-control" name="name" id="name"
+                           placeholder="Your Full Name*"
+                           component={renderField}/>
+                    <Field ElementType="input" type="email" className="form-control" name="email" id="email"
+                           placeholder="Your E-mail Address*"
+                           component={renderField}/>
 
-                  <Field ElementType="textarea" className="form-control" name="requestContent"
-                         id="request-content"
-                         placeholder="Your Message*"
-                         component={renderField}/>
-                  <div className="form-group">
-                    <button className="btn btn-sm btn-primary btn-sign-up">Sign Up!</button>
-                  </div>
-                </form>
+                    <Field ElementType="textarea" className="form-control" name="requestContent"
+                           id="request-content"
+                           placeholder="Your Message*"
+                           component={renderField}/>
+                    <div className="form-group">
+                      <button className="btn btn-sm btn-primary btn-sign-up">Sign Up!</button>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>

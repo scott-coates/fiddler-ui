@@ -38,8 +38,12 @@ p {
   color: $src-dark;
   background-color: $src-super-bright;
 
+  @include at-least-xs {
+    padding: $src-content-section-vertical-space-xs 0;
+  }
+
   @include at-least-small {
-    padding: $src-content-section-vertical-space 0;
+    padding: $src-content-section-vertical-space-lg 0;
   }
 
   &.alt-content-section {

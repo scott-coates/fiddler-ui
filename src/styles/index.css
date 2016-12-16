@@ -6340,7 +6340,7 @@ button.close {
   background-color: #CF3E61;
   color: white;
   text-align: center;
-  padding-bottom: 0; }
+  padding: 40px 0; }
   .app .signup .signup-container {
     /*$break-size hack: force large media query*/ }
     @media only screen and (min-width: 48em) {
@@ -6351,14 +6351,13 @@ button.close {
         width: 420px; } }
     .app .signup .signup-container h3 {
       font-weight: bold;
-      margin: 32px 0;
       /*$break-size hack: force large media query*/ }
       @media only screen and (min-width: 48em) {
         .app .signup .signup-container h3 {
           font-size: 36px;
           font-size: 2.25rem; } }
     .app .signup .signup-container p {
-      margin-bottom: 70px;
+      margin: 50px 0;
       /*$break-size hack: force large media query*/ }
       @media only screen and (min-width: 48em) {
         .app .signup .signup-container p {

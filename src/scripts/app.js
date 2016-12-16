@@ -152,7 +152,7 @@ class App extends Component {
           </div>
         </div>
 
-        <div className="content-section signup">
+        <div className="signup">
           <div className="container">
             <div className="row">
               <div className="col-sm-24">

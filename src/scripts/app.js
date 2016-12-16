@@ -159,10 +159,9 @@ class App extends Component {
 
                 <h3>Let's do This</h3>
                 <p>
-                  All we need to get started is your email address and a message of what you’re looking for in a
-                  playlist.
-                  Please mention some bands that you like and why (song structure, harmonies, tempo, etc).
-                  Lastly, jot down some music you don’t like too (screamo, pop punk).
+                  What are you in the mood for? If you're not sure where to start, mention some bands that you like and
+                  why (song structure, harmonies, tempo, etc). Remember to jot down some music you don’t like too
+                  (screamo, pop punk).
                 </p>
                 <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
                   <Field ElementType="input" type="text" className="form-control" name="name" id="name"

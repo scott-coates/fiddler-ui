@@ -94,7 +94,8 @@ class App extends Component {
               <div className="row">
                 <div className="col-md-24">
                   <h1 className="blurb">Discover New Punk Rock Releases</h1>
-                  <h2 className="blurb">Punk Rock Playlist delivers the latest music on demand. 100% free forever.</h2>
+                  <h2 className="blurb">Punk Rock Playlist features the latest music from independent record labels.
+                    100% free forever.</h2>
                 </div>
               </div>
             </div>

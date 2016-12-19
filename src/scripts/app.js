@@ -129,7 +129,7 @@ class App extends Component {
               </div>
               <div className="col-sm-12">
                 <h3>Save Time</h3>
-                <p>The perfect playlist is curated for you on demand. Listening to new music becomes a lot easier when
+                <p>The perfect playlist is curated for you on demand. Discovering new music becomes a lot easier when
                   all
                   you have to do is hit play.
                 </p>

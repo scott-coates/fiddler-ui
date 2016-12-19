@@ -129,9 +129,9 @@ class App extends Component {
               </div>
               <div className="col-sm-12">
                 <h3>Save Time</h3>
-                <p>The perfect playlist is curated for you on demand. Specify what you’re looking for (anything
-                  from&nbsp;
-                  <em>female vocals only</em> to <em>local bands only</em>) and we take care of the rest.
+                <p>The perfect playlist is curated for you on demand. Listening to new music becomes a lot easier when
+                  all
+                  you have to do is hit play.
                 </p>
               </div>
 

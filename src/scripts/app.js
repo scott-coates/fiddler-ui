@@ -32,7 +32,7 @@ const validate = values => {
 const warn = values => {
   const warnings = {};
 
-  if (values.requestContent && values.requestContent.length < 50) {
+  if (values.requestContent && values.requestContent.length < 10) {
     warnings.requestContent = 'We\'ll need a little more detail than that.';
   }
 

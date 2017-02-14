@@ -27,7 +27,7 @@
       text-decoration: none;
       font-weight: bold;
       color: $src-bright-brand;
-      background: rgba(255, 255, 255, 0.50);
+      background: rgba(255, 255, 255, 0.75);
       padding: 16px 20px;
 
       @include at-least-xs {
@@ -36,6 +36,7 @@
       }
 
       @include at-least-small {
+        position: fixed;
         display: inline-block;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;

@@ -95,7 +95,7 @@ class App extends Component {
                 <div className="col-md-24">
                   <h1 className="blurb">Discover New Punk Rock Releases</h1>
                   <h2 className="blurb">Punk Rock Playlist features the latest music from independent record labels.
-                    100% free forever.</h2>
+                    100% free.</h2>
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ class App extends Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <h3>100% Free Forever</h3>
+                <h3>100% Free</h3>
                 <p>Seriously. Sign up. It’s that simple. Our mission is all about <strong>artist discovery.</strong>
                 </p>
               </div>
@@ -161,7 +161,7 @@ class App extends Component {
 
                   <h3>Let's do This</h3>
                   <p>
-                    What are you in the mood for? Jot down some music and bands that you love.
+                    Jot down your top 3 favorite bands and we'll send you a playlist with the latest releases from those and similar artists.
                   </p>
                   <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
                     <Field ElementType="input" type="text" className="form-control" name="name" id="name"

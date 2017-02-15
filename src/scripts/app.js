@@ -180,7 +180,7 @@ class App extends Component {
                   </p>
                   <p>
                     After you're happy with the music, you can adjust your filters going forward (female vocals only,
-                    touring bands vising my neighborhood, and more).
+                    touring bands vising your neighborhood, and more).
                   </p>
                   <p>
                     You're going to love this! New releases tailored just for you without any of the work.

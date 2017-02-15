@@ -93,61 +93,74 @@ class App extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-24">
-                  <h1 className="blurb">Discover New Punk Rock Releases</h1>
-                  <h2 className="blurb">Punk Rock Playlist features the latest music from independent record labels.
-                    100% free.</h2>
+                  <h1 className="blurb">Discover New Releases on a Weekly Basis</h1>
+                  <h2 className="blurb">Enjoy the best punk-styled music tailored for your tastes. 100%
+                    free and takes less than 1 minute to get started.
+                  </h2>
                 </div>
               </div>
             </div>
           </div>
           <div className="sign-up-wrapper">
             <div className="container">
-              <button className="btn btn-lg btn-primary" onClick={this.scrollToSignUp}>Get Started</button>
+              <button className="btn btn-lg btn-primary" onClick={this.scrollToSignUp}>Start My Playlists</button>
             </div>
           </div>
         </div>
-        <div className="content-section discovery features">
+        <div className="content-section benefits">
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <h3>Discovery</h3>
-                <p>Listen to the latest punk rock releases tailored for your tastes. Never miss anything new from your
-                  favorite bands or artists you have yet to be exposed to.
+                <h3>Weekly Curated Playlists</h3>
+                <p>You'll always have fresh, exciting, and energizing music to look forward to—without all the work of
+                  finding it yourself.
+                </p>
+                <p>
+                  Plus, this is a great way to not only keep up with your favorite artists, but discover amazing bands
+                  that you've never even heard of before.
                 </p>
               </div>
               <div className="col-sm-11 col-sm-offset-1">
-                <img src={helm}/>
+                <img src={chest}/>
               </div>
             </div>
           </div>
         </div>
-        <div className="content-section alt-content-section save-time features">
+        <div className="content-section alt-content-section benefits">
           <div className="container">
             <div className="row">
               <div className="col-sm-10">
-                <img src={clock}/>
+                <img src={helm}/>
               </div>
               <div className="col-sm-12">
-                <h3>Save Time</h3>
-                <p>The perfect playlist is curated for you on demand. Discovering new music becomes a lot easier when
-                  all
-                  you have to do is hit play.
+                <h3>Filter</h3>
+                <p>Looking for some particular music? Female vocals only? What about limiting your music to bands who
+                  will be touring through your neighborhood next month?
+                </p>
+                <p>Punk Rock Playlist gives you fine control over what you want in this week's playlist so you
+                  can&nbsp;
+                  <em>really scratch your own itch</em>. No more searching through dozens of sites to find something
+                  new.
                 </p>
               </div>
 
             </div>
           </div>
         </div>
-        <div className="content-section trust features">
+        <div className="content-section benefits">
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <h3>100% Free</h3>
-                <p>Seriously. Sign up. It’s that simple. Our mission is all about <strong>artist discovery.</strong>
+                <h3>Stream it on Spotify</h3>
+                <p>You're life is too busy for yet another music player. Let's stick with a streaming service that
+                  you've already heard of—and one that you've likely already tried before.
+                </p>
+                <p>You'll be up and running in no time. Soon, your phone or laptop will be playing the newest albums and
+                  it'll sound amazing, and you're gonna be effing pumped! Let's do it!!
                 </p>
               </div>
               <div className="col-sm-11 col-sm-offset-1">
-                <img src={chest}/>
+                <img src={clock}/>
               </div>
             </div>
           </div>
@@ -161,7 +174,16 @@ class App extends Component {
 
                   <h3>Let's do This</h3>
                   <p>
-                    Jot down your top 3 favorite bands and we'll send you a playlist with the latest releases from those and similar artists.
+                    We'll start the process by listing your top 3 favorite punk-style bands. From here', we'll send you
+                    a playlist with the latest releases from those
+                    and similar artists.
+                  </p>
+                  <p>
+                    After you're happy with the music, you can adjust your filters going forward (female vocals only,
+                    touring bands vising my neighborhood, and more).
+                  </p>
+                  <p>
+                    You're going to love this! New releases tailored just for you without any of the work.
                   </p>
                   <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
                     <Field ElementType="input" type="text" className="form-control" name="name" id="name"

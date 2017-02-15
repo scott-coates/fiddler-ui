@@ -73,7 +73,7 @@
     }
   }
 
-  .features {
+  .benefits {
 
     .row {
       // http://stackoverflow.com/a/25517025/173957
@@ -92,6 +92,10 @@
     p {
       @include at-least-small {
         @include font-size(24px);
+      }
+
+      &:not(:last-child) {
+        margin-bottom: $src-content-section-vertical-space-xs;
       }
     }
 

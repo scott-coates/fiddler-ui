@@ -174,7 +174,7 @@ class App extends Component {
 
                   <h3>Let's do This</h3>
                   <p>
-                    We'll start the process by listing your top 3 favorite punk-style bands. From here', we'll send you
+                    We'll start the process by listing your top 3 favorite punk-style bands. From here, we'll send you
                     a playlist with the latest releases from those
                     and similar artists.
                   </p>

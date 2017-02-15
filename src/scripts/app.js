@@ -93,7 +93,7 @@ class App extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-24">
-                  <h1 className="blurb">Discover New Releases on a Weekly Basis</h1>
+                  <h1 className="blurb">Get Amazing New Releases Curated Every Week</h1>
                   <h2 className="blurb">Enjoy the best punk-styled music tailored for your tastes. 100%
                     free and takes less than 1 minute to get started.
                   </h2>

@@ -137,7 +137,7 @@ class App extends Component {
                 <p>Looking for some particular music? Female vocals only? What about limiting your music to bands who
                   will be touring through your neighborhood next month?
                 </p>
-                <p>Punk Rock Playlist gives you fine control over what you want in this week's playlist so you
+                <p>Punk Rock Playlist gives you fine control via filters over what you want in this week's playlist so you
                   can&nbsp;
                   <em>really scratch your own itch</em>. No more searching through dozens of sites to find something
                   new.

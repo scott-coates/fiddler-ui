@@ -137,7 +137,7 @@ class App extends Component {
                 <p>Looking for some particular music? Female vocals only? What about limiting your music to bands who
                   will be touring through your neighborhood next month?
                 </p>
-                <p>Punk Rock Playlist gives you fine control via filters over what you want in this week's playlist so you
+                <p>Punk Rock Playlist gives you fine control (via filters) over what you want in this week's playlist so you
                   can&nbsp;
                   <em>really scratch your own itch</em>. No more searching through dozens of sites to find something
                   new.
@@ -183,7 +183,7 @@ class App extends Component {
                     touring bands vising your neighborhood, and more).
                   </p>
                   <p>
-                    You're going to love this! New releases tailored just for you without any of the work.
+                    You're going to love this! New releases tailored every week just for you without any of the work.
                   </p>
                   <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
                     <Field ElementType="input" type="text" className="form-control" name="name" id="name"

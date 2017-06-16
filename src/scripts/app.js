@@ -58,7 +58,6 @@ class App extends Component {
     analytics.identify(values.email, {
       // segment traits use camelCasing
       "email": values.email,    // segment trait
-      "createdAt": parseInt(Date.now() / 1000), // segment trait - divide by 1000 to remove milliseconds.
       "name": values.name // segment trait
     });
 
@@ -87,15 +86,14 @@ class App extends Component {
         <div className="above-the-fold hello">
           <a className="logo-wrapper" href="/">
             <img src={glasses}/>
-            <span className="logo-text">Punk Rock Playlist</span>
+            <span className="logo-text">Tropic</span>
           </a>
           <div className="jumbotron">
             <div className="container">
               <div className="row">
                 <div className="col-md-24">
-                  <h1 className="blurb">Get Amazing New Releases Curated Every Week</h1>
-                  <h2 className="blurb">Enjoy the best punk-styled music tailored for your tastes. 100%
-                    free and takes less than 1 minute to get started.
+                  <h1 className="blurb">Easily Discover Your Next Favorite Album</h1>
+                  <h2 className="blurb">Enjoy the newest music tailored for your tastes in less than 1 minute.
                   </h2>
                 </div>
               </div>
@@ -103,7 +101,7 @@ class App extends Component {
           </div>
           <div className="sign-up-wrapper">
             <div className="container">
-              <button className="btn btn-lg btn-primary" onClick={this.scrollToSignUp}>Start My Playlists</button>
+              <button className="btn btn-lg btn-primary" onClick={this.scrollToSignUp}>Start Jamming</button>
             </div>
           </div>
         </div>
@@ -137,7 +135,8 @@ class App extends Component {
                 <p>Looking for some particular music? Female vocals only? What about limiting your music to bands who
                   will be touring through your neighborhood next month?
                 </p>
-                <p>Punk Rock Playlist gives you fine control (via filters) over what you want in this week's playlist so you
+                <p>Punk Rock Playlist gives you fine control (via filters) over what you want in this week's playlist so
+                  you
                   can&nbsp;
                   <em>really scratch your own itch</em>. No more searching through dozens of sites to find something
                   new.

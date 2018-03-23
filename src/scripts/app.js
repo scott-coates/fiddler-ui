@@ -84,16 +84,23 @@ class App extends Component {
     return (
       <div className="app">
         <div className="above-the-fold hello">
-          <a className="logo-wrapper" href="/">
-            <img src={glasses}/>
-            <span className="logo-text">Tropic</span>
-          </a>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-24">
+                <a className="logo-wrapper" href="/">
+                  <img src={glasses}/>
+                  <span className="logo-text">Fiddler</span>
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="jumbotron">
+
             <div className="container">
               <div className="row">
                 <div className="col-md-24">
-                  <h1 className="blurb">Easily Discover Your Next Favorite Album</h1>
-                  <h2 className="blurb">Enjoy the newest music tailored for your tastes in less than 1 minute.
+                  <h1 className="blurb">Discover Your Favorite New Album</h1>
+                  <h2 className="blurb">Start listening to something you'll love without having to search for it.
                   </h2>
                 </div>
               </div>
@@ -101,7 +108,7 @@ class App extends Component {
           </div>
           <div className="sign-up-wrapper">
             <div className="container">
-              <button className="btn btn-lg btn-primary" onClick={this.scrollToSignUp}>Start Jamming</button>
+              <button className="btn btn-lg btn-primary" onClick={this.scrollToSignUp}>Create my playlist!</button>
             </div>
           </div>
         </div>
@@ -114,8 +121,7 @@ class App extends Component {
                   finding it yourself.
                 </p>
                 <p>
-                  Plus, this is a great way to not only keep up with your favorite artists, but discover amazing bands
-                  that you've never even heard of before.
+                  Keep up with your favorite artists and discover amazing bands that you've never even heard of before.
                 </p>
               </div>
               <div className="col-sm-11 col-sm-offset-1">
@@ -131,15 +137,11 @@ class App extends Component {
                 <img src={helm}/>
               </div>
               <div className="col-sm-12">
-                <h3>Filter</h3>
-                <p>Looking for some particular music? Female vocals only? What about limiting your music to bands who
-                  will be touring through your neighborhood next month?
-                </p>
-                <p>Punk Rock Playlist gives you fine control (via filters) over what you want in this week's playlist so
-                  you
-                  can&nbsp;
-                  <em>really scratch your own itch</em>. No more searching through dozens of sites to find something
-                  new.
+                <h3>Customize</h3>
+                <p>Music lets you express yourself in the most unique way possible.</p>
+
+                <p>That's why Fiddler lets you customize your
+                  favorite types of music with filters.
                 </p>
               </div>
 
@@ -150,12 +152,10 @@ class App extends Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <h3>Stream it on Spotify</h3>
-                <p>You're life is too busy for yet another music player. Let's stick with a streaming service that
-                  you've already heard of—and one that you've likely already tried before.
+                <h3>Save Time</h3>
+                <p>The perfect playlist is curated for you on demand.
                 </p>
-                <p>You'll be up and running in no time. Soon, your phone or laptop will be playing the newest albums and
-                  it'll sound amazing, and you're gonna be effing pumped! Let's do it!!
+                <p>Whether you want to get in the zone so you can focus, get pumped for a workout, work your way through an emotional time, (or just enjoy life!!), Fiddler saves you time by curating the perfect playlist on demand, just for you!
                 </p>
               </div>
               <div className="col-sm-11 col-sm-offset-1">
@@ -171,30 +171,21 @@ class App extends Component {
               <div className="col-sm-24">
                 <div className="signup-container">
 
-                  <h3>Let's do This</h3>
+                  <h3>Create My Playlist!</h3>
                   <p>
-                    We'll start the process by listing your top 3 favorite punk-style bands. From here, we'll send you
-                    a playlist with the latest releases from those
-                    and similar artists.
-                  </p>
-                  <p>
-                    After you're happy with the music, you can adjust your filters going forward (female vocals only,
-                    touring bands vising your neighborhood, and more).
-                  </p>
-                  <p>
-                    You're going to love this! New releases tailored every week just for you without any of the work.
+                    You're going to love this! New music tailored every week just for you without any of the work.
                   </p>
                   <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
                     <Field ElementType="input" type="text" className="form-control" name="name" id="name"
-                           placeholder="Your Full Name*"
+                           placeholder="Your full name*"
                            component={renderField}/>
                     <Field ElementType="input" type="email" className="form-control" name="email" id="email"
-                           placeholder="Your E-mail Address*"
+                           placeholder="Your email address*"
                            component={renderField}/>
 
                     <Field ElementType="textarea" className="form-control" name="requestContent"
                            id="request-content"
-                           placeholder="Your Message*"
+                           placeholder="A favorite song or album*"
                            component={renderField}/>
                     <div className="form-group">
                       <button className="btn btn-sm btn-primary btn-sign-up">Sign Up!</button>
@@ -219,7 +210,7 @@ class App extends Component {
               </a>
             </li>
             <li id="footer-copyright">
-              <span>© {new Date().getFullYear()} Punk Rock Playlist</span>
+              <span>© {new Date().getFullYear()} Fiddler</span>
             </li>
           </ul>
         </footer>
